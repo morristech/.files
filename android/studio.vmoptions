@@ -1,0 +1,2 @@
+# Set max memory usage
+-Xmx4g
