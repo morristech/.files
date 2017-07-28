@@ -85,9 +85,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Android studio configuration.
-export PATH=$PATH:/Users/karn.saheb/Library/Android/sdk/platform-tools/
-export PATH=$PATH:/Users/karn.saheb/Library/Android/sdk/tools/
-export PATH=$PATH:/Users/karn.saheb/Library/Android/sdk/ndk-bundle/
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools/
+export PATH=$PATH:$HOME/Library/Android/sdk/tools/
+export PATH=$PATH:$HOME/Library/Android/sdk/ndk-bundle/
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
